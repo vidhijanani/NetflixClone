@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("./IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.icon {
+    text-align: left;
+    padding: 20px;
+    /* Add padding to provide space around the logo */
+
+    position: relative;
+}
+
+.icon img {
+    z-index: 20;
+    width: 250px;
+    text-align: left;
+
+    background-color: rgba(0, 0, 0, 0.374);
+
+    position: absolute;
+    top: 0;
+    background: transparent;
+}
+
+.container {
+    height: 80vh;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.81);
+    position: relative;
+    z-index: 30
+}
+
+body .container h1 {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.main {
+    // height:100vh;
+    width: 100vw;
+    // position: relative;
+}
+
+.first-box {
+    background-color: rgba(0, 0, 0, 0.335);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+form {
+    position: relative;
+}
+
+form .form-control {
+    background-color: #6d6969 !important;
+    
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0px 24px 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+form .btn {
+    font-size: 24px;
+    line-height: 14px;
+    font-weight: 500;
+    width: 100%;
+    padding: 15px 24px;
+    background-color: red;
+}
+
+form a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #6d6969;
+}
+
+form .info {
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-top: 43px;
+}
+
+form .info span .lm {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+form #demo {
+    height: 120px;
+    //   background-color: red;
+    width: 350px;
+    //   padding:0 20px;
+}
+
+#demo p {
+    color: #8c8c8c;
+
+    font-size: 13px;
+    margin-top: 11px;
+
+    text-align: left;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.793);
+    margin-top: 100px;
+    color: white;
+    max-width: 100vw;
+    margin-top:100px;
+    padding: 14px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    padding: 50px;
+
+}
+
+footer .Questions {
+    padding: 34px 0;
+    position: absolute;
+    left: 100px;
+    color: #8c8c8c;
+
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-item a {
+    // color: white;
+    font-size: 16px;
+    color: #8c8c8c;
+    padding: 10px;
+    text-decoration: none;
+}
